@@ -1,0 +1,30 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: #45b6fe;
+    --entry: #45b6fe;
+    --primary: rgba(0, 0, 0, 0.88);
+    --secondary: rgba(0, 0, 0, 0.56);
+    --tertiary: rgba(0, 0, 0, 0.16);
+    --content: rgba(0, 0, 0, 0.88);
+    --hljs-bg: #1c1d21;
+    --code-bg: #45b6fe;
+    --border: none;
+}
+
+.dark {
+    --theme: #3792cb;
+    --entry: #3792cb;
+    --primary: rgba(0, 0, 0, 0.88);
+    --secondary: rgba(0, 0, 0, 0.56);
+    --tertiary: rgba(0, 0, 0, 0.16);
+    --content: rgba(0, 0, 0, 0.88);
+    --hljs-bg: #5c5302;
+    --code-bg: #3792cb;
+    --border: none;
+}
