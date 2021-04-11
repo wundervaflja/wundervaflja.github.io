@@ -7,7 +7,7 @@ on:
       - 'LICENSE'
       - 'README.md'
     branches:
-      - main  # Set a branch to deploy
+      - master
 
 jobs:
   deploy:
