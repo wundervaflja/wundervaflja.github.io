@@ -14,17 +14,50 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-menu:
-    main:
-        # - name: Archive
-        #   url: archives
-        #   weight: 5
-        # - name: Tags
-        #   url: tags/
-        #   weight: 10
-        - name: Projects
-          url: projects/
-          weight: 10
+# menu:
+#     main:
+#         # - name: Archive
+#         #   url: archives
+#         #   weight: 5
+#         # - name: Tags
+#         #   url: tags/
+#         #   weight: 10
+#         - name: Projects
+#           url: projects/
+#           weight: 10
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Projects
+                  url: projects/
+
+    ua:
+        languageName: ":ua:"
+        weight: 2
+        title: скучний сайт
+        homeInfoParams:
+            imageUrl: "/avatar.png"
+            imageTitle: me
+            imageWidth: 150em
+            Content: >
+                Привіт! Мене звати Ігор і дякую, що завітали на мою сторінку!
+
+                - Тут я буду писати різні штуки про програмування і моє життя.
+
+                -  Я **інженер** з фокусом на BigData та MLOps.
+
+                -  Я **ходжу в гори** - не так круто як Месснер, але фотки круті є  \oo/.
+
+                - Роблю різні **стартапи**. Всі вони згоріли.
+        menu:
+            main:
+                - name: Проєкти
+                  url: /projects/
+                  weight: 5
+
 outputs:
     home:
         - HTML
@@ -50,7 +83,7 @@ params:
 
     homeInfoParams:
         # Title: "PaperMod"
-        imageUrl: "avatar.png"
+        imageUrl: "/avatar.png"
         imageTitle: me
         imageWidth: 150em
         Content: >
