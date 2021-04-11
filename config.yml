@@ -8,7 +8,6 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-publishDir: "docs"
 # googleAnalytics: UA-123-45
 
 minify:
