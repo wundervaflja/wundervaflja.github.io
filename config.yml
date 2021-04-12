@@ -37,7 +37,7 @@ languages:
     ua:
         languageName: ":ua:"
         weight: 2
-        title: скучний сайт
+        title: нудна сторінка
         homeInfoParams:
             imageUrl: "/avatar.png"
             imageTitle: me
